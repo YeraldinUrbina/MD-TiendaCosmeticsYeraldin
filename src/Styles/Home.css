@@ -1,0 +1,37 @@
+.home-container {
+    background-image: url('https://img.freepik.com/foto-gratis/paleta-cosmeticos-botellas-esmalte-unas-sobre-fondo-rosa_23-2148129468.jpg?t=st=1728494821~exp=1728498421~hmac=62a960b516b42b17327e8c7d8977f80ab0d40db60ce4d5834e10f657898313e4&w=740'); /* Cambia por la URL de una imagen atractiva */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .home-content {
+    background: rgba(240, 12, 130, 0.48);
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: -30%;
+    
+  }
+
+  .bienvenido{
+    color: rgb(247, 244, 247); 
+  }
+  
+  h1 {
+    font-size: 3.7em;
+    line-height: 1.1;
+    color: rgb(247, 244, 247);
+    margin-bottom: 0.5em;
+    
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  
