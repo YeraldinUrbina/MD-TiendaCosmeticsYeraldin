@@ -65,4 +65,41 @@
   .btn-details:hover {
     background-color: #f5f0f4;
   }
+
+  /* Ajustes generales para pantallas pequeñas */
+@media (max-width: 390px) {
   
+  .products-container {
+    padding: 5em; /* Reducir el padding en pantallas pequeñas */
+  }
+
+  h1 {
+    font-size: 2em; /* Reducir el tamaño del título */
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr; /* Cambiar a una sola columna */
+    gap: 1em; /* Reducir el espacio entre los elementos */
+  }
+
+  .product-card {
+    padding: 0.8em; /* Reducir el padding dentro de las tarjetas */
+  }
+
+  .product-image {
+    height: 150px; /* Ajustar la altura de las imágenes */
+  }
+
+  h2 {
+    font-size: 1.2em; /* Reducir el tamaño de los subtítulos */
+  }
+
+  p {
+    font-size: 1em; /* Ajustar el tamaño del texto de los párrafos */
+  }
+
+  .btn-details {
+    padding: 0.4em 0.8em; /* Reducir el tamaño del botón */
+    font-size: 0.9em; /* Ajustar el tamaño del texto del botón */
+  }
+} 

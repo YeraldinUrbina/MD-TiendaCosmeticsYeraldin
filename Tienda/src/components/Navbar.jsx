@@ -1,13 +1,28 @@
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import '../Styles/Navbar.css';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/products">Productos</Link></li>
-      </ul>
-    </nav>
+    <header>
+      <nav className="navbar">
+        <div className="navbar-brand">
+          <img src="data:image/png;base64,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" alt="Logo" />
+        </div>
+        <div className="navbar-toggle" onClick={toggleMenu}>
+          <span className="hamburger-icon">☰</span>
+        </div>
+        <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/products">Productos</a></li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

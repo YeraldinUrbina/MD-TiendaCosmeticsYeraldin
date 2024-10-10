@@ -7,9 +7,10 @@ const ProductDetails = () => {
 
   
   const products = [
-    { id: 1, name: 'Skincare', price: 100 },
-    { id: 2, name: 'Kit Completo', price: 200 },
-    { id: 3, name: 'Producto 3', price: 300 }
+    { id: 1, name: 'Skincare', price: 100 ,description:'Los mejores productos para el cuidado de tu piel'},
+    { id: 2, name: 'Kit Completo', price: 200, description:'Los mejores maquillajes para lucir radiante todo el dia' },
+    { id: 3, name: 'Base Alta Cobertura', price: 300, description:'Cubre todas tu imperfecciones con la mejor base de alta cobertura' },
+    { id: 4, name: 'Crema Facial', price: 400, description:'Hidrata tu piel con los mejores productos' }
   ];
 
   
@@ -22,6 +23,7 @@ const ProductDetails = () => {
           <h1 className='detalle'>Detalles del Producto</h1>
           <p>Nombre: {product.name}</p>
           <p>Precio: ${product.price}</p>
+          <p>Descripcion: {product.description}</p>
         </>
       ) : (
         <h1>Producto no encontrado</h1>

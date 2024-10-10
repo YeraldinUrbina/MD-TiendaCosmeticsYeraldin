@@ -3,9 +3,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import ProductDetails from './components/ProductDetails';
-import './Styles/Global.css';
-
-
+import './Styles/Global.scss';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,8 +23,9 @@ function App() {
         {/* Ruta para manejar el 404 */}
         <Route path="*" element={<h1>404 - Página no encontrada</h1>} />
       </Routes>
+      <Footer /> {/* Asegúrate de incluir el Footer aquí */}
     </Router>
   );
 }
 
-export default App;
+export default App;

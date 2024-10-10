@@ -1,7 +1,7 @@
 
 nav {
-    background-color: #ec11c859;
-    padding: 1em 3em;
+    background-color: #fafcfb;
+    padding: 1em 15em;
     text-align: center;
   }
   
@@ -19,9 +19,10 @@ nav {
 
   a {
     font-size: 2em;
-    color: #ebecf5;
+    color: #252425;
     text-align: center;
     text-decoration: inherit;
+    
   }
 
   a:hover {
@@ -40,4 +41,26 @@ nav {
   p {
     color: rgb(12, 12, 12)
   }
+
+  @media (max-width: 390px) and (max-width: 430px)  {
+    .product-card {
+      padding: 1em;
+    }
+
+    .home-container {
+      position: relative;
+      left: 8%;
+      padding: 3em;
+    }
+    
+    .home-content {
+      padding: 5em;
+      margin-top: -66%;
+    }
+
+    header {
+      width: 102% ;
+    }
+}
+
   
