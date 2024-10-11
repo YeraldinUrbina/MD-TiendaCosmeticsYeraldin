@@ -19,7 +19,7 @@ const ProductDetails = () => {
   const product = products.find(p => p.id === Number(id));
 
   return (
-    <div>
+    <div className='fondo-detalle'>
       {product ? (
         <>
           <h1 className='detalle'>Detalles del Producto</h1>

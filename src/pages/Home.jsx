@@ -7,6 +7,7 @@ const Home = () => {
         <h1 className='bienvenido'>Bienvenido a la Mejor Tienda de Cosmeticos</h1>
         <p>¡Explora nuestros productos increíbles y disfruta de las mejores ofertas!</p>
       </div>
+      <a href="/products" className="btn-ver">Ver Productos</a>
     </div>
   );
 };
