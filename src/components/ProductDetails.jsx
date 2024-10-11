@@ -27,9 +27,8 @@ const ProductDetails = () => {
           <p>Precio: ${product.price}</p>
           <p>Descripcion: {product.description}</p>
           <p>
-          <a href="/products" className="btn-volver">Volver</a>
-
-          </p>
+           <a href="/products" className="btn-volver">Volver</a>
+         </p>
         </>
       ) : (
         <h1>Producto no encontrado</h1>
