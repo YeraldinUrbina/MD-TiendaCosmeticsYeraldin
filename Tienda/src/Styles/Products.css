@@ -66,6 +66,20 @@
     background-color: #f5f0f4;
   }
 
+  .btn-volver {
+    display: inline-block;
+    padding: 0.3em 0.5em;
+    background-color: #ff00d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .btn-volver:hover {
+    background-color: #f5bce9;
+  }
+
   /* Ajustes generales para pantallas pequeñas */
 @media (max-width: 390px) {
   
