@@ -4,10 +4,10 @@ const Products = () => {
   const products = [
     { id: 1, name: 'Skincare', price: 100, image: 'https://www.farmaciatorrent.com/blog/wp-content/uploads/2019/08/que-es-un-cosm%C3%A9tico.jpg' },
     { id: 2, name: 'Kit Completo', price: 200, image: 'https://www.beautymarketamerica.com/fotos/11323_notbmae1grande.jpg' },
-    { id: 3, name: 'Base Alta Cobertura', price: 300, image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSTacBQKMtYlhPkZOguk0_x0JppunFF8DbJz_kY42BWzQp45E-5dryyw9FW6n6OMAjla8ANbwC84bD6meS3OsXKHbdHxSP-PLDlumsA0tyKGDbM6yLUu0CR-w&usqp=CAE'},
-    { id: 4, name: 'Crema Facial', price: 400, image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRkoFiECUVXX_Joy44_xlXzSeYFSo4oDgLeRPfaXEIiY5Xw8WnzlH1hYvr2MmLzOzY6OJ3WdDhaioK37Dty2G_wH51VFx3r7VRVw80BQXofi5yN5X00zHsCb7fBIZ_wBR4XU2bMLOk&usqp=CAc'},
-    { id: 5, name: 'Crema Hidratante', price: 500, image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSsCAHGzqT6AatNgjfqpVftpqPlTF7amoan6RSBXHdtjrJo1TZGQ45ukV_M9FItyeu_Yq3dlS9W55kJzoMhiYEMY6xDtnpwsrfuiL-ociSalyqBtrzr4p23jEJ4MB46s_N_T8OuExzJjg&usqp=CAc'},
-    { id: 6, name: 'Gel de Aloevera', price: 600, image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQmMWE3ZgRy4QXKCwnIun_Bci1pFk5nUPjMBVe1Z8Ib8gsTPKeo7Eb8thk8KJp-mqxoCKixi9FGacITbCfzQ_eac2KSMpcVAxmmh5CU5GQ&usqp=CAc'}
+    { id: 3, name: 'Base Alta Cobertura', price: 300, image: 'https://img.freepik.com/foto-gratis/publicidad-fundacion-botella-brillante_23-2149511223.jpg?ga=GA1.1.644615044.1728655335&semt=ais_hybrid-rr-similar'},
+    { id: 4, name: 'Crema Facial', price: 400, image: 'https://img.freepik.com/fotos-premium/pot-crema-blanca-marmol-vivido-fotografia-editorial-iluminacion-realista_1310542-1889.jpg?ga=GA1.1.644615044.1728655335&semt=ais_hybrid-rr-similar'},
+    { id: 5, name: 'Crema Hidratante', price: 500, image: 'https://img.freepik.com/fotos-premium/muestras-blancas-cremas-cosmeticas_1234738-333261.jpg?w=826'},
+    { id: 6, name: 'Gel de Aloevera', price: 600, image: 'https://img.freepik.com/fotos-premium/aloe-vera-cosmetico-redes-sociales_1314785-906.jpg?ga=GA1.1.644615044.1728655335&semt=ais_hybrid-rr-similar'}
   
   ];
 
